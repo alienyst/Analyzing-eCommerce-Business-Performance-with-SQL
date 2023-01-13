@@ -1,6 +1,6 @@
 # Data Analysis E-Commerce Project: Menganalisis Performa Bisnis dengan SQL
 
-Link : https://medium.com/@imransutee/data-analysis-for-e-commerce-menganalisis-performa-bisnis-dengan-sql-aa58ea86eaf8
+Link Artikel : https://medium.com/@imransutee/data-analysis-for-e-commerce-menganalisis-performa-bisnis-dengan-sql-aa58ea86eaf8
 
 ## Latar Belakang
 
