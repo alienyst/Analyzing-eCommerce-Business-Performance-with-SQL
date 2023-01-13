@@ -23,20 +23,8 @@ Adapun pertanyaan-pertanyaan yang harus dijawab antara lain:
 
 Pada proyek kali ini tools yang saya gunakan adalah MySQL untuk mengolah data dan Excel sebagai visualisasi data.
 
-## Tahap 1 : Persiapan Data
 
-Sebelum melakukan pemrosesan data, tahap pertama yang harus dilakukan adalah membuat data mentah menjadi siap diolah.
-
-**Langkah 1** : Pembuatan database beserta tabel, dapat menggunakan CREATE statement, dengan memperhatikan tipe data dari setiap kolom.
-Terdapat 8 dataset yang berformat .csv, maka kita akan membuat 8 tabel beserta tipe data yang sesuai untuk menyimpan data tersebut.
-
-**Langkah 2** : Importing data csv ke dalam database menggunakan LOAD DATA INFILE statement. Dalam mengimpor data csv ke database, tipe data dari kolom di database harus sama dan path folder penyimpanan dataset harus lengkap.
-
-**Langkah 3** : Memodifikasi data dengan menambahkan foreign key untuk menunjukkan hubungan antar tabel, dapat menggunakan ALTER statement, kemudian membuat Entity Relationship Diagram (ERD).
-
-Keterangan : untuk _geolocation_zip_prefix, order_items_id_, dan _review_id_ tidak bisa dibuat primary key karena terdapat data duplikat. sedangkan pada tabel order_payments tidak ada nilai unik yang dijadikan sebagai primary.
-
-## Tahap 2 : Analisis Pertumbuhan Aktivitas Pelanggan Tahunan
+## Analisis Pertumbuhan Aktivitas Pelanggan Tahunan
 
 Melihat dan menganalisis apakah performa bisnis eCommerce dari sisi aktivitas customer mengalami pertumbuhan, stagnan atau bahkan mengalami penurunan dalam kurun waktu tahunan.
 
